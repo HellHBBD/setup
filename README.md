@@ -30,7 +30,7 @@ mkdir -p ~/.config/nvim
 cd ~/.config/nvim
 git clone git@github.com:HellHBBD/nvim-config.git .
 cd ~
-git clone git@github.com:HellHBBD/HellHBBD/coding
+git clone git@github.com:HellHBBD/coding.git
 ```
 
 ## Git clone with https
