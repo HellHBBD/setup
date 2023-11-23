@@ -15,6 +15,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 sudo apt install git
 sudo apt install gdb
+sudo apt install clang-format
 ```
 
 ## Git clone with ssh
