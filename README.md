@@ -1,17 +1,46 @@
 # Quick start for Linux
 
+## Add user to sudoers
+
 ```
 vi /etc/sudoers
+```
+
+## Install apt
+
+```
 sudo apt install neovim
 sudo apt install curl
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 sudo apt install git
+sudo apt install gdb
+```
+
+## Git clone with ssh
+
+```
+ssh-keygen
+```
+
+give me your public ssh key
+
+```
+mkdir -p ~/.config/nvim
+cd ~/.config/nvim
+git clone git@github.com:HellHBBD/nvim-config.git .
+cd ~
+git clone git@github.com:HellHBBD/HellHBBD/coding
+```
+
+## Git clone with https
+
+```
 mkdir -p ~/.config/nvim
 cd ~/.config/nvim
 git clone https://github.com/HellHBBD/nvim-config.git .
 cd ~
-sudo apt install gdb
+git clone https://github.com/HellHBBD/coding
 ```
 
 # Quick remove for Linux
