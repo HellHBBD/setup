@@ -3,7 +3,7 @@
 ## Add user to sudoers
 
 ```
-vi /etc/sudoers
+sudo vi /etc/sudoers
 ```
 
 ## Install apt
