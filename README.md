@@ -34,6 +34,14 @@ cd ~
 git clone git@github.com:HellHBBD/coding.git
 ```
 
+change git config
+
+```
+git config --global user.email "paulyu602@gmail.com"
+git config --global user.name "Hell HBBD"
+git config --global core.editor "nvim"
+```
+
 ## Git clone with https
 
 ```
