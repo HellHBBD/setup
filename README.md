@@ -18,6 +18,7 @@ sudo apt install gcc
 sudo apt install g++
 sudo apt install gdb
 sudo apt install clang-format
+sudo apt install make
 ```
 
 ## Git clone with ssh
