@@ -9,16 +9,17 @@ sudo vi /etc/sudoers
 ## Install apt
 
 ```
-sudo apt install neovim
-sudo apt install curl
+sudo apt update ; sudo apt upgrade -y
+sudo apt install neovim -y
+sudo apt install curl -y
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-sudo apt install git
-sudo apt install gcc
-sudo apt install g++
-sudo apt install gdb
-sudo apt install clang-format
-sudo apt install make
+sudo apt install git -y
+sudo apt install gcc -y
+sudo apt install g++ -y
+sudo apt install gdb -y
+sudo apt install clang-format -y
+sudo apt install make -y
 ```
 
 ## Git clone with ssh
