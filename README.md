@@ -56,32 +56,10 @@ cd ~
 git clone https://github.com/HellHBBD/coding
 ```
 
-# Quick remove for Linux
-
-# Neovim
-
-[Neovim Download Page](https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-download)
-
-# vim-plug
-
-## Install
-
-[vim-plug Installation Page](https://github.com/junegunn/vim-plug#neovim)
-
 ## Uninstall
-
-### Windows
-
-```
-rd /s /q %LOCALAPPDATA%\nvim-data
-```
-
-### Linux
 
 ```
 rm -rf ~/.local/share/nvim
+rm -rf ~/.config/nvim
+rm -rf ~/coding
 ```
-
-# nvim-config
-
-[nvim-config github](https://github.com/HellHBBD/nvim-config)
