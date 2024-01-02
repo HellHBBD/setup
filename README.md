@@ -34,6 +34,7 @@ give me your public ssh key
 mkdir -p ~/.config/nvim
 cd ~/.config/nvim
 git clone git@github.com:HellHBBD/nvim-config.git .
+nvim -c PlugInstall
 cd ~
 git clone git@github.com:HellHBBD/coding.git
 ```
@@ -52,6 +53,7 @@ git config --global core.editor "nvim"
 mkdir -p ~/.config/nvim
 cd ~/.config/nvim
 git clone https://github.com/HellHBBD/nvim-config.git .
+
 cd ~
 git clone https://github.com/HellHBBD/coding
 ```
