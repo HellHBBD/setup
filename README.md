@@ -6,6 +6,23 @@
 sudo vi /etc/sudoers
 ```
 
+## Remap caps to ctrl
+
+```
+ /usr/bin/setxkbmap -option "ctrl:swapcaps"
+```
+
+## Add shell alias
+
+```
+vi ~/.bashrc
+```
+
+```
+alias cls='clear'
+alias nv='nvim'
+```
+
 ## Install apt
 
 ```
